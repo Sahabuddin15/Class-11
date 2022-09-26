@@ -1,0 +1,437 @@
+/*All page css*/
+
+[class*=col-]{
+  float: left;
+  box-sizing: border-box;
+  border: 0px solid black;
+  box-shadow: 2px 0px 2px 0px  ;
+}
+.col-1{
+  width: 8.33%;
+}
+.col-2{
+  width:16.66%;
+}
+.col-3{
+  width:24.99%;
+}
+.col-4{
+  width:33.32%;
+}
+.col-5{
+  width:41.65%;
+}
+.col-6{
+  width:49.98%;
+}
+.col-7{
+  width:58.31%;
+}
+.col-8{
+  width:66.64%;
+}
+.col-9{
+  width:74.97%;
+}
+.col-10{
+  width:83.3%;
+}
+.col-11{
+  width:91.63%;
+}
+.col-12{
+  width:100%;
+}
+.hover-box:hover{
+  display: flex;
+  font-size: 20px;
+  background-color: rgba(25, 53, 191, 0.358);
+}
+
+
+
+
+/*Login css */
+.body-1{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 191, 255);
+  min-height: 550px;
+  Width:100%;
+}
+
+.container-1{
+  display: flex;
+  width: 26%;
+  min-width: 322px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 21px;
+  border-radius: 50px;
+  border: 4px solid royalblue;
+}
+
+.login-1{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 110, 255);
+  font-style: italic;
+}
+.hr-1{
+  border-top: 5px solid royalblue;
+  width: 103%;
+}
+.from-1{
+  width: 300px;
+  margin: 50px auto;
+}
+.label-1{
+  display: block;
+  color: royalblue;
+  text-align: left;
+  font-style: normal;
+  padding-left: 20px;
+  padding: 1px;
+  font-size: 25px;
+}
+.input-box-1{
+  display: flex;
+  border: none;
+  outline: none;
+  width: 88%;
+  font-size: 19px;
+  padding: 8px;
+  padding-left: 20px;
+  border: 2px solid royalblue;
+  border-radius: 14px;
+  background-color: rgba(107, 190, 199, 0.482);
+}
+.remember-bok-1{
+  font-size: 20px;
+  padding-top: 10PX;
+}
+.login-button-1{
+  display: flex;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    color: rgb(58, 101, 230);
+    font-weight: bolder;
+    padding: 8px;
+    padding-left: 108px;
+    margin-top: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+.forgot-password-1{
+  display: flex;
+  font-size: 20px;
+}
+.forgot-password-box-1{
+  font-size: 18px;
+  font-weight: bolder;
+  width: 280px;
+  color: royalblue;
+}
+.create-account-1{
+  display: flex;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    color: rgb(58, 101, 230);
+    font-weight: bolder;
+    padding: 8px;
+    padding-left: 48px;
+    margin-top: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+}
+.create-account-1 a {
+  text-decoration: none; 
+  color:rgb(0, 110, 255)
+}
+
+
+
+
+/* Forget fassword CSS*/
+.body-2{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 191, 255);
+  min-height: 450px;
+  Width:100%;
+}
+
+.container-2{
+  display: flex;
+  width: 25%;
+  min-width: 350px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 21px;
+  border-radius: 50px;
+  border: 4px solid royalblue;
+  margin-top: 30px;
+}
+.forget-hadding-2{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(0, 110, 255);
+  font-style: italic;
+  
+}
+.hr-2{
+  border-top: 5px solid royalblue;
+  width: 100%;
+}
+.from-2{
+  width: 300px;
+  margin: 50px auto;
+}
+.label-2{
+  display: block;
+  color: royalblue;
+  text-align: left;
+  font-style: normal;
+  padding-left: 30px;
+  padding: 4px;
+  margin-top: 10px;
+  font-size: 22px;}
+
+.input-box-2{
+  display: flex;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    background-color: #e8e8e8;
+    border-radius: 14px;
+    border: 1px solid royalblue;
+}
+
+.forget-button-2{
+  display: flex;
+  text-decoration: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: rgb(58, 101, 230);
+  font-weight: bolder;
+  padding: 9px;
+  padding-left: 24px;
+  margin-top: 10px;
+  border: 1px solid royalblue;
+  border-radius: 10px;
+}
+.change-password-box-2 a {
+  text-decoration: none;
+  color: royalblue;
+}
+.change-password-box-2{
+border: none;
+outline: none;
+display: flex;
+padding: 5px;
+padding-left: 70px;
+padding-top: 10px;
+margin-top: 15px;
+width: 110%;
+font-size: 19px;
+font-weight: 600px;
+border: 1px solid rgb(58, 101, 230);
+border-radius: 12px;
+
+}
+
+
+
+
+
+
+/* create account css*/
+.body-3{
+  background-color: rgb(0, 191, 255);
+  display: flex;
+  justify-content: center;
+  min-height: 600px;
+  Width:100%;
+}
+
+.Containar-3{
+  display: flex;
+  width: 22%;
+  min-width: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 21px;
+  border-radius: 50px;
+  border: 4px solid royalblue;
+}
+
+
+.create-account-3{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(0, 110, 255);
+  font-style: italic;
+}
+.hr-3{
+  border-top: 5px solid royalblue;
+  width: 100%;
+}
+.from-3{
+  width: 300px;
+  margin: 50px auto;
+}
+.label-3{
+  display: block;
+  color: royalblue;
+  text-align: left;
+  font-style: normal;
+  padding-left: 30px;
+  padding: 3px;
+  font-size: 22px;}
+
+.input-box-3{
+   display: flex;
+    border: none;
+    outline: none;
+    width: 88%;
+    font-size: 18px;
+    padding: 7px;
+    padding-left: 20px;
+    background-color: #e8e8e8;
+    border-radius: 14px;
+    border: 1px solid royalblue;
+}
+.file-3-box{
+  display: flex;
+    color: royalblue;
+    font-size: 15px;
+    font-style: italic;
+
+}
+.Create-account-3{
+  margin-top: 15px;
+  color:royalblue;
+  width:100%;
+  font-size: 18px;
+  padding: 7px;
+  border-radius: 10px;
+  border:1px solid royalblue
+}
+.Create-account-3 a{
+  display: flex;
+  text-decoration: none;
+  color: royalblue;
+  padding-left: 50px;
+}
+
+
+
+
+/*Home digine*/
+
+.manu-logo-height{
+  height: 60px;
+  
+}
+.manu-height{
+  height: 60px;
+  background-color: royalblue;
+}
+.logo-img{
+  height: 100%;
+  width: 100%;
+}
+
+.login-manu-item{ 
+  list-style: none;
+  margin-top: 1px;
+}
+.login-manu-item a{
+  text-decoration: none;
+  float: left;color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700px;
+  padding-left: 30px;
+  padding: 10px;
+}
+
+.hover-manu:hover{
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 166, 255);
+  border-radius: 20px 0px 20px 0px;
+  transition: .50s;
+  border: 1px solid wheat;
+}
+ /*
+.active-manu{
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 166, 255);
+  border-radius: 20px 0px 20px 0px;
+  transition: .50s;
+    border: 1px solid wheat
+  } */
+
+.login-manu{
+  height: 60px;
+  background-color: rgb(45, 86, 209);
+}
+.login-manu a{
+  display: flex;
+  padding: 15px;
+  font-size: 25px;
+  padding-left: 15px;
+  color:#e8e8e8;
+  text-decoration: none;
+}
+.banner{
+  height: 400px;
+  background-color: blueviolet;
+}
+.banner-img{
+  height: 100%;
+  width: 100%;
+}
+.product-img-height{
+  height: 300px;
+  color: blue;
+}
+.product-img{
+  height: 100%;
+  width: 84%;
+  padding-left: 19px;
+}
+.Cart-button{
+  border: none;
+  outline:none;
+  width: 100%;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: rgb(32, 64, 224);
+}
+.Cart-button a{
+  text-decoration: none;
+  color:white;
+  font-weight: bolder;
+}
+.Cart-button:hover{
+  font-size: 22px;
+}
+
+
+
+
+/*Product css */
+.our-product-heading{
+  text-align: center;
+  color: royalblue;
+  font-size: 20px;
+  font-weight: 500px;
+}
